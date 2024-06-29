@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "yoko-chat"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Shushkevich <meshushkevich@edu.hse.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yoko = {git="https://github.com/kottoamatsukami/yoko"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
